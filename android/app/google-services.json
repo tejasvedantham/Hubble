@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "481707329145",
+    "project_id": "hubble-d9460",
+    "storage_bucket": "hubble-d9460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481707329145:android:64b6b2517bb15e973076a8",
+        "android_client_info": {
+          "package_name": "com.example.hubble_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481707329145-nmubij60got3aij2ee9uqloel2nbl2b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6bTyelFZd3SHYSJNSSlIahyttB1S8fJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481707329145-nmubij60got3aij2ee9uqloel2nbl2b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

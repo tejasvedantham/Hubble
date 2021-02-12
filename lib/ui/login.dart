@@ -31,12 +31,12 @@ class LoginWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text("Hubble", style: TextStyle(color: Colors.white, fontSize: 48)),
+                  Text("Hubble", style: TextStyle(color: Colors.white, fontSize: 48, )),
                   Image.asset('assets/logo.png'),
                   Container(
                     margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
                     child: Opacity(
-                      opacity: 0.4,
+                      opacity: 0.5,
                       child: TextField(
                         decoration: InputDecoration(
                           fillColor: Colors.grey[100],
@@ -54,7 +54,7 @@ class LoginWidget extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
                     child: Opacity(
-                      opacity: 0.4,
+                      opacity: 0.5,
                       child: TextField(
                         decoration: InputDecoration(
                           fillColor: Colors.grey[100],
@@ -116,7 +116,7 @@ class LoginWidget extends StatelessWidget {
                   minWidth: MediaQuery.of(context).size.width,
                   height: 65,
                   onPressed: () {},
-                  color: Colors.blue[200],
+                  color: Colors.blue[100],
                   padding: EdgeInsets.all(10),
                   child: RichText(
                     text: new TextSpan(

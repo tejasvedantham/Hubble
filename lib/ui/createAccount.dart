@@ -24,7 +24,7 @@ class _CreateAccountState extends State<CreateAccount> {
                   Container(
                     margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
                     child: Opacity(
-                      opacity: 0.4,
+                      opacity: 0.5,
                       child: TextField(
                         decoration: InputDecoration(
                             fillColor: Colors.grey[100],
@@ -42,7 +42,7 @@ class _CreateAccountState extends State<CreateAccount> {
                   Container(
                     margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
                     child: Opacity(
-                      opacity: 0.4,
+                      opacity: 0.5,
                       child: TextField(
                         decoration: InputDecoration(
                             fillColor: Colors.grey[100],
@@ -60,7 +60,7 @@ class _CreateAccountState extends State<CreateAccount> {
                   Container(
                     margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
                     child: Opacity(
-                      opacity: 0.4,
+                      opacity: 0.5,
                       child: TextField(
                         decoration: InputDecoration(
                             fillColor: Colors.grey[100],

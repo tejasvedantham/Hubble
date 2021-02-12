@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hubble_app/ui/createAccount.dart';
 import 'package:hubble_app/ui/dashboard.dart';
-import 'package:hubble_app/ui/landing.dart';
 import 'package:hubble_app/ui/login.dart';
 import 'package:hubble_app/ui/splash.dart';
 import 'package:provider/provider.dart';
@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
           '/login': (context) => LoginWidget(),
           '/dashboard': (context) => DashboardWidget(),
         },
-        home: LoginWidget()
+        home: DashboardWidget()
       );
   }
 }

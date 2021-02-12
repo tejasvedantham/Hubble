@@ -45,7 +45,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                             elevation: 10,
                             child: Row(
                               children: [
-                                Image.asset('assets/logo2.png'),
+                                Image.asset('assets/logo.png'),
                                 Column(
                                   children: [
                                     Text("Hello")
@@ -64,15 +64,15 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                     margin: const EdgeInsets.all(30),
                     child: ButtonTheme(
                       minWidth: 250,
-                      height: 40,
+                      height: 45,
                       child: RaisedButton(
                         color: Colors.greenAccent[400],
                         padding: EdgeInsets.all(10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20),
+                          borderRadius: BorderRadius.circular(25),
                         ),
                         onPressed: () {},
-                        child: Text("CREATE STORY", style: TextStyle(color: Colors.white, fontSize: 18)),
+                        child: Text("CREATE", style: TextStyle(color: Colors.white, fontSize: 18)),
                         elevation: 7,
                       ),
                     ),
